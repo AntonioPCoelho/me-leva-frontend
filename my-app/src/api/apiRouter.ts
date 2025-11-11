@@ -10,6 +10,7 @@ export interface Building {
     id: string;
     number: number;
     campus: string;
+    displayName: string; 
     wings: Wing[];
 }
 
